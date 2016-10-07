@@ -1,0 +1,632 @@
+{
+  "Artist": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 20,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "ranged"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":5,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Archer": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 25,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 50,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "ranged"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Abdul": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 19,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "ranged"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      },
+	  "Daze": {
+        "Value": 100,
+        "Cooldown": 7,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackdown",
+        "Target": "enemy",
+        "TargetsAmount": 4
+      }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Barbar": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 15,
+      "CritMultiplyer": 3,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "melee"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Caster": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 15,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "ranged"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      },
+	  "Daze": {
+        "Value": 100,
+        "Cooldown": 7,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackdown",
+        "Target": "enemy",
+        "TargetsAmount": 4
+	  }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Knight": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 17,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "melee"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      },
+	  "Bless": {
+        "Value": 100,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 4,
+        "Effect": "attdefup",
+        "Target": "ally",
+        "TargetsAmount": 4
+	  }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Mechanic": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 15,
+      "CritMultiplyer": 3,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "melee"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      },
+	  "Bless": {
+        "Value": 100,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 4,
+        "Effect": "attdefup",
+        "Target": "ally",
+        "TargetsAmount": 4
+	  }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Prehistory": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 15,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "melee"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  },
+  "Automaton": {
+    "Stats": {
+      "Attack": 100,
+      "Defence": 100,
+      "HP": 500,
+      "Skill": 200,
+      "CritChance": 25,
+      "CritMultiplyer": 2,
+      "HitChance": 100,
+      "DodgeChance": 15,
+      "FireResist": 5,
+      "FreezeResist": 5,
+      "DeseaseResist": 5,
+      "ColdResist": 5,
+      "LightningResist": 5,
+      "Initiative": 1,
+      "SpiritResist": 5,
+	  "XP":0,
+	  "Level":1,
+      "Alignment": "fire",
+	  "AttackType": "melee"
+    },
+    "Skills": {
+	  "Attack":{
+		"Value": 50,
+        "Cooldown": 0,
+		"Cooling": 0,
+        "Duration": 0,
+        "Effect": "none",
+        "Target": "enemy",
+        "TargetsAmount": 1
+		},
+      "Heal": {
+        "Value": 50,
+        "Cooldown": 4,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "none",
+        "Target": "ally",
+        "TargetsAmount": 1
+      },
+      "Flame": {
+        "Value": 150,
+        "Cooldown": 6,
+		"Cooling":0,
+        "Duration": 1,
+        "Effect": "burn",
+        "Target": "enemy",
+        "TargetsAmount": 1
+      },
+      "Defence": {
+        "Value": 100,
+        "Cooldown": 5,
+		"Cooling":0,
+        "Duration": 3,
+        "Effect": "attackup",
+        "Target": "ally",
+        "TargetsAmount": 4
+      }
+    },
+    "Perks": {
+      "Armored": 20,
+      "Frenzy": 12,
+      "Agile": 15
+    }
+  }
+}

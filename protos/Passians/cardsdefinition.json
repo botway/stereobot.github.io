@@ -1,0 +1,122 @@
+{
+  "card0": [
+    "look",
+    "arrow",
+    "lute",
+    "clock"
+  ],
+  "card1": [
+    "lute",
+    "thunder",
+    "lock",
+    "fire"
+  ],
+  "card2": [
+    "cross",
+    "face",
+    "coins",
+    "arrow"
+  ],
+  "card3": [
+    "ship",
+    "mill",
+    "sword",
+    "face"
+  ],
+  "card4": [
+    "wreath",
+    "crown",
+    "hat",
+    "mill"
+  ],
+  "card5": [
+    "spider",
+    "clock",
+    "sun",
+    "crown"
+  ],
+  "card6": [
+    "coins",
+    "book",
+    "snake",
+    "thunder"
+  ],
+  "card7": [
+    "sword",
+    "crow",
+    "flowers",
+    "book"
+  ],
+  "card8": [
+    "hat",
+    "horseshoe",
+    "tree",
+    "crow"
+  ],
+  "card9": [
+    "sun",
+    "fire",
+    "chains",
+    "horseshoe"
+  ],
+  "card10": [
+    "lock",
+    "ancor",
+    "flag",
+    "moon"
+  ],
+  "card11": [
+    "snake",
+    "bell",
+    "heart",
+    "ancor"
+  ],
+  "card12": [
+    "flower",
+    "cat",
+    "ring",
+    "bell"
+  ],
+  "card13": [
+    "tree",
+    "swan",
+    "key",
+    "cat"
+  ],
+  "card14": [
+    "chain",
+    "moon",
+    "cup",
+    "swan"
+  ],
+  "card15": [
+    "flag",
+    "road",
+    "look",
+    "scales"
+  ],
+  "card16": [
+    "heart",
+    "candle",
+    "cross",
+    "road"
+  ],
+  "card17": [
+    "ring",
+    "letter",
+    "ship",
+    "candle"
+  ],
+  "card18": [
+    "key",
+    "skull",
+    "wreath",
+    "letter"
+  ],
+  "card19": [
+    "cup",
+    "scales",
+    "spider",
+    "skull"
+  ]
+}
