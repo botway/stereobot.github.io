@@ -1,0 +1,15 @@
+burger,10,donut,20,hotdog,15,beer,2
+burger,10,donut,20,hotdog,15,beer,2
+burger,10,beer,20,beer,15,hotdog,2
+burger,10,beer,20,beer,15,hotdog,2
+hotdog,10,beer,20,beer,15,hotdog,2
+hotdog,10,donut,20,hotdog,15,hotdog,2
+hotdog,10,donut,20,hotdog,15,beer,2
+hotdog,10,donut,20,hotdog,15,beer,2
+burger,10,hotdog,20,hotdog,15,beer,2
+burger,10,hotdog,20,hotdog,15,beer,2
+burger,10,hotdog,20,hotdog,15,hotdog,2
+beer,10,hotdog,20,hotdog,15,hotdog,2
+beer,10,donut,20,hotdog,15,hotdog,2
+beer,10,donut,20,hotdog,15,beer,2
+burger,10,donut,20,hotdog,15,beer,2
