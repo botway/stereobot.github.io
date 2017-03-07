@@ -1,6 +1,6 @@
 ﻿{
-	"name": "New project",
-	"short_name": "New project",
+	"name": "MushroomGnome",
+	"short_name": "MushroomGnome",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
